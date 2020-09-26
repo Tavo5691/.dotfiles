@@ -1,0 +1,7 @@
+[user]
+    name = Gustavo Bolivar
+    email = gustavobolivar5691@gmail.com
+[includeIf "gitdir:~/Work/"]
+    path = ~/Work/.gitconfig
+[includeIf "gitdir:~/Dani/"]
+    path = ~/Dani/.gitconfig
