@@ -1,17 +1,31 @@
-# Personal account - default config
+#### GitHub ####
+# Personal account
 Host personal.github.com
-   HostName github.com
-   User git
-   IdentityFile ~/.ssh/id_rsa_personal
-
-# Work account
-Host uala.github.com
-   HostName github.com
-   User git
-   IdentityFile ~/.ssh/id_rsa_uala
+	Hostname github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_github_personal
 
 # Chuchi account
 Host dani.github.com
-  HostName github.com
-  User git
-  IdentityFile ~/.ssh/id_rsa_dani
+	Hostname github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_github_dani
+
+# Uala account
+Host uala.github.com
+	Hostname github.com
+	User git
+	IdentityFile ~/.ssh/id_rsa_uala
+
+#### Bitbucket ####
+# Personal account
+Host personal.bitbucket.org
+	Hostname bitbucket.org
+	User git
+	IdentityFile ~/.ssh/id_rsa_bitbucket_personal
+
+# Chuchi account
+Host dani.bitbucket.org
+	Hostname bitbucket.org
+	User git
+	IdentityFile ~/.ssh/id_rsa_bitbucket_dani
